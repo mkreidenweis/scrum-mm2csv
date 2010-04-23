@@ -1,4 +1,4 @@
-This scripts can transform a Freemind mindmap containing Sprint Planning results to a CSV file for printing Task Cards.
+These scripts can transform a Freemind mindmap containing Sprint Planning results to a CSV file for printing Task Cards.
 The Mindmap has to contain nodes matching /Sprint\s+\d{4}-\d{2,}/ that have the Stories as direct children. 
 Tasks that should end up in the CSV file have to be annotated in Freemind by the internal icon "attach" (paper clip).
 
