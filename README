@@ -15,6 +15,6 @@ How to use:
               Create a Shortcut to the .bat file on your Desktop. Now you are able to drop a
               Freemind mindmap file on the Shortcut to have a CSV file named SprintTasks.csv
               be created from it. 
-              (The .bat file is currently configured to be used with the Perl that comes with 
-              IBM Rational ClearCase for Windows 7 and might have to be changed for other
+              (The .bat file is currently configured to be used with the Perl 5.8.6 that comes 
+              with IBM Rational ClearCase 7 for Windows and might have to be changed for other
               Perl installations)
