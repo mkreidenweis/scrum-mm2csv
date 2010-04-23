@@ -1,7 +1,7 @@
 #!/usr/bin/perl
 #
-# This class can transform a Freemind mindmap containing Sprint Planning data to a CSV file for printing Task Cards.
-# The Mindmap has to contain nodes matching /Sprint\s+\d{4}-\d{2,}/ that has the Stories as direct children. 
+# This class can transform a Freemind mindmap containing Sprint Planning results to a CSV file for printing Task Cards.
+# The Mindmap has to contain nodes matching /Sprint\s+\d{4}-\d{2,}/ that have the Stories as direct children. 
 # Tasks that should end up in the CSV file have to be annotated in Freemind by the internal icon "attach" (paper clip).
 #
 # Copyright: TNG Technology Consulting GmbH 2010

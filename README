@@ -1,0 +1,20 @@
+This scripts can transform a Freemind mindmap containing Sprint Planning results to a CSV file for printing Task Cards.
+The Mindmap has to contain nodes matching /Sprint\s+\d{4}-\d{2,}/ that have the Stories as direct children. 
+Tasks that should end up in the CSV file have to be annotated in Freemind by the internal icon "attach" (paper clip).
+
+Prerequisites:
+- Perl with XML::Parser
+
+How to use:
+    Linux:    Use the MM2CSV.pl file directly, passing it a .mm file as command line parameter
+              or supply the Freemind XML to STDIN.
+              Sample:   $ ./MM2CSV.pl MM2CSV.t.input.mm
+                        $ cat MM2CSV.t.input.mm | ./MM2CSV.pl
+
+    Windows:  Use the MM2CSV.bat wrapper batch file around the Perl script: 
+              Create a Shortcut to the .bat file on your Desktop. Now you are able to drop a
+              Freemind mindmap file on the Shortcut to have a CSV file named SprintTasks.csv
+              be created from it. 
+              (The .bat file is currently configured to be used with the Perl that comes with 
+              IBM Rational ClearCase for Windows 7 and might have to be changed for other
+              Perl installations)
